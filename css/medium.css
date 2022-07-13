@@ -1,0 +1,24 @@
+@media only screen and (min-width: 500px) {
+
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page-grid{
+        display: grid;
+        grid-template-rows: 60px 1fr 30px;
+    }
+
+    ul{
+        grid-row: 2;
+        line-height: 1.7;
+    }
+
+    .page-grid p{
+        grid-row: 3;
+
+    }
+}

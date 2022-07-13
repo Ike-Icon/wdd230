@@ -1,0 +1,94 @@
+/* medium screen size */
+@media only screen and (min-width: 360px){ 
+    p{
+        line-height: 1.1rem;
+    }
+    
+    body{
+        font-size: 1.1em;
+    }
+
+    header{
+        font-size: 1em;
+    }
+       
+    .page-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .starbucks{
+        grid-column: 1;
+        width: 95%;
+        background-color:azure;
+        border-radius: 10px 10px 10px 10px;
+        border: 1px solid #0a0b46;
+    }
+    
+    .apple{
+        grid-column: 2;
+        width: 95%;
+        background-color:azure;
+        border-radius: 10px 10px 10px 10px;
+        border: 1px solid #0a0b46;
+        padding: 10px;
+    }
+    
+    .tesla{
+        grid-column: span 2;
+        width: 95%;
+        background-color:azure;
+        border-radius: 10px 10px 10px 10px;
+        border: 1px solid #0a0b46;
+        padding: 10px;
+    }
+}
+
+
+
+/* large screen size */
+@media only screen and (min-width: 660px){
+    .page-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        max-width: 99%;
+    }
+
+    .starbucks{
+        grid-column: 1;
+        width: 95%;
+        background-color:azure;
+        border-radius: 10px 10px 10px 10px;
+        border: 1px solid #0a0b46;
+        padding: 10px;
+    }
+    
+    .apple{
+        grid-column: 2;
+        width: 95%;
+        background-color:azure;
+        border-radius: 10px 10px 10px 10px;
+        border: 1px solid #0a0b46;
+        padding: 10px;
+    }
+    
+    .tesla{
+        grid-column: 3;
+        width: 95%;
+        background-color:azure;
+        border-radius: 10px 10px 10px 10px;
+        border: 1px solid #0a0b46;
+        padding: 10px;
+    }
+
+    body{
+        font-size: 1.1em;
+    }
+
+    p{
+        line-height: 1.5rem;
+    }
+    header{
+        font-size: 1.3em;
+    }
+}

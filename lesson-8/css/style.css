@@ -1,0 +1,78 @@
+main{
+    font-family: Ubuntu, sans-serif;
+
+}
+
+table{
+    background-color: rgb(22, 22, 41);
+    color: rgba(240, 255, 255, 0.692);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+caption {
+    padding: 10px;
+    caption-side: top;
+    color: rgb(22, 22, 41);
+    font-size: 0.85rem;
+}
+
+th{
+	padding: 10px;
+}
+
+thead{
+    color: #fff;
+    font-weight: 700;
+}
+
+td{
+    border-top: 1px solid rgba(255, 255, 255, 0.192);
+    border-width: 1px;
+    text-align: center;
+    padding: 11px;
+}
+
+
+tr td:nth-child(5) p{
+    background-color: aliceblue;
+	color: rgb(0, 182, 70);
+    padding: 5px;
+    border-radius: 5px;
+}
+tr td:nth-child(5) .decl{
+    background-color: rgba(246, 247, 248, 0.116);
+	color: rgb(238, 20, 20);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cell2{
+    background-color:rgb(2, 4, 20);
+}
+
+p{
+    margin: 0;
+}
+
+
+/*********************************** large View
+************************************/
+@media only screen and (min-width: 460px) {
+
+    caption {
+        font-size: 1.1rem;
+    }
+
+    th{
+        padding: 17px;
+    }
+
+    td{
+        padding: 13px;
+    }
+
+}
+
+
+

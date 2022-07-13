@@ -1,0 +1,77 @@
+{
+    "businesses": [
+        {
+            "name": "Tesla",
+            "id": "1 Tesla Road Austin, TX 78725",
+            "contact": "APACPress@tesla.com",
+            "order": 1,
+            "pageurl": "https://www.tesla.com/",
+            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/tesla-logo.png?v=1655401153276"
+        },
+        {
+            "name": "Starbucks",
+            "id": "4 NY Road USA",
+            "contact": "1-888-280-4331",
+            "order": 2,
+            "pageurl": "https://www.starbucks.com/",
+            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/starbucks-logo.jpg?v=1655401163095"
+        },
+        {
+            "name": "Apple Technologies",
+            "id": "(800) MY–APPLE (800–692–7753)",
+            "contact": "1-800-676-2775",
+            "order": 3,
+            "pageurl": "https://www.apple.com/",
+            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/apple-logo.jpg?v=1655401184336"
+        },
+        {
+            "name": "Amazon",
+            "id": "AZA5 – 6000 W Van Buren St, Phoenix, AZ 85043",
+            "contact": "1-888-280-4331",
+            "order": 4,
+            "pageurl": "https://www.amazon.com/",
+            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/amazon-logo.jpg?v=1655401192847"
+        },
+        {
+            "name": "Bloomberg",
+            "id": "PHX3 – 6835 W.",
+            "contact": "+1-212-318-2000",
+            "order": 5,
+            "pageurl": "https://www.bloomberg.com/africa",
+            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/bloomberg.png?v=1655401180301"
+        },
+        {
+            "name": "Samsung",
+            "id": "PHX9 – 777 S 79th Ave, Tolleson, Arizona",
+            "contact": "0860 726 7864",
+            "order": 6,
+            "pageurl": "https://www.samsung.com/us/",
+            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/samsung.webp?v=1655401165784"
+        },
+        {
+            "name": "Nike",
+            "id": "SAZ1 – 3333 S 7th St., Phoenix, AZ 85040-1182",
+            "contact": "1-503-671-6453",
+            "order": 7,
+            "pageurl": "https://www.nike.com/",
+            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/nike-logo.jpg?v=1655401172320"
+        },
+        {
+            "name": "Trivago",
+            "id": "trivago N.V., Kesselstraße 5 – 7, 40221 Düsseldorf",
+            "contact": "1-503-671-6453",
+            "order": 8,
+            "pageurl": "https://www.trivago.com/",
+            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/trivago-logo_fb.webp?v=1655401146248"
+        },
+        {
+            "name": "Zapp",
+            "id": "PHX7 & PHX8 – 800 N",
+            "contact": "+603 76616211",
+            "order": 1,
+            "pageurl": "https://zapp.world/",
+            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/zaap-logo.png?v=1655401145700"
+        }
+            
+    ]
+}

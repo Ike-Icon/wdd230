@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Luxurious+Roman&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #F7F7FF;
+  --secondary-color: #0B0014;
+  --accent1-color: #EC0B43;
+  --accent2-color: #1D8A99;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Aladin",serif ;
+  --paragraph-font: "Luxurious Roman", cursive;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #0B0014;  /* headlines on a white background */ 
+  --headline-color-on-color: #0B0014; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #020122; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #F2F3AE; /* paragraph text on a colored background */ 
+  --text-background-color: #1D8A99;
+  --nav-link-color: #0B0014;
+  --nav-background-color: #F7F7FF;
+  --nav-hover-link-color: #EC0B43;
+  --nav-hover-background-color: #020122;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+html {
+  background-color: var(--primary-color);
+}
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+  font-weight: 500;
+}
+header {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+}
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+  font-size: 1.1rem;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+
+p.colored {
+  background-color: var(--text-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+
+}
+nav a {
+  padding:1em;
+  min-width: 70px;
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+.sitemap {
+  justify-content: center;
+
+ 
+}
+.sitemap > div {
+  text-align: center;
+}
+
+
+.sm-home {
+  grid-area: home;
+  background-color: #999;
+  line-height: 3em;
+}
+.sm-page2 {
+  grid-area: page2;
+  background-color: #999;
+  line-height: 3em;
+}
+.sm-page3 {
+  grid-area: page3;
+  background-color: #999;
+  line-height: 3em;
+}
+
+.top {
+  grid-area: top;
+  border-left: 1px solid;
+}
+
+.left {
+  grid-area: left;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+
+.right {
+  grid-area: right;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
+
+.persona1{
+  padding: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 50px 120px;
+}
+
+.persona2{
+  padding: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 50px 120px;
+}

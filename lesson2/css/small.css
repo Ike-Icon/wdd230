@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&family=Lato:ital@1&display=swap');
+
+p{
+    font-family: 'Lato', sans-serif;
+    line-height: 1rem;
+}
+
+body{
+    font-size: 1em;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h3{
+    font-family: 'Akshar', sans-serif;
+}
+
+#content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    display: block;
+    background-color:rgb(8, 8, 77);
+    padding: 0.1em;
+    margin-bottom: 1rem;
+    font-size: 0.7em;
+}
+
+.head-disc, .head-name{
+    text-align: center;
+    color: aliceblue;
+}
+
+.page-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.page-grid h2{
+    background-color: rgba(11, 16, 63, 0.76);
+    margin-top: 0rem;
+    padding: 0.5rem;
+    border-radius: 10px 10px 10px 10px;
+    color: aliceblue;
+
+}
+
+.starbucks{
+    grid-column: 1;
+    width: 95%;
+    background-color:azure;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #0a0b46;
+    padding: 10px;
+}
+
+.apple{
+    grid-column: 1;
+    width: 95%;
+    background-color:azure;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #0a0b46;
+    padding: 10px;
+}
+
+.tesla{
+    grid-column: 1;
+    width: 95%;
+    background-color:azure;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #0a0b46;
+    padding: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    background-color:rgb(8, 8, 77);
+    padding-bottom: 1px;
+}
+
+footer p{
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    
+}

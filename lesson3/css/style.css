@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+#content{
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+h1{
+  font-family: 'Source Serif Pro', serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+p, li{
+  font-family: 'Roboto Slab', serif;
+}
+
+header{
+  background-color: #1a1f23;
+  
+}
+
+.logo-box{
+  max-width: 100%;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 780px;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	transition: 0.5s;
+  color: #91f3e6;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #91f3e6;
+  }
+  .colors td {
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: #1a1f23;
+    color: #ffffff;
+  }
+  .secondary {
+    background-color: #91f3e6;
+  }
+  .accent1 {
+    background-color: #ffffff;
+  }
+
+  
+  p.colored {
+    background-color: #00A5DF;
+    color: #F7FCFE;
+    padding: 1em;
+  }
+
+footer{
+  background-color: #1a1f23;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+footer p{
+  color: #91f3e6;
+  text-align: center;
+}
+
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	nav ul { display: flex; }
+	nav ul li { flex: 1 1 auto; } 
+}
+
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	h1 {
+		font-size: 2rem;
+	}
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+	}
+}
+

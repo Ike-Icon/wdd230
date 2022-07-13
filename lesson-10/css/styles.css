@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 100px auto;
+    max-width: 650px;
+    border: 1px solid #0d0d0d;
+}
+
+main {
+    background-color: rgba(152, 218, 226, 0.438);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgb(92, 91, 91);
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    text-shadow: 0 5px 10px rgb(33, 100, 155);
+}
+
+footer{
+    text-align: center;
+    margin-top: 0px;
+    background-color: rgba(222, 184, 135, 0.185);
+    padding: 2.5rem 0;
+}
