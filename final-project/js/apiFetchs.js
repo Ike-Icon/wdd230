@@ -85,37 +85,35 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
-        const businesses = jsonObject["temple"];
-        businesses.forEach(displayBusinesses);
+        const templeList = jsonObject["temples"];
+        templeList.forEach(displaytempleList);
     });
 
-function displayBusinesses(business) {
+function displaytempleList(temple) {
     // Create elements to add to the document
     let card = document.createElement("section");
     let portrait = document.createElement("img");
     let h3 = document.createElement("h3");
     let contact = document.createElement("p");
-    let pageUrl = document.createElement("p");
+    let appointment = document.createElement("a");
+    let address = document.createElement("p");
+    let closureSchedule = document.createElement("p");
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h3.textContent = `${business.name} (${business.id})`;
+    h3.textContent = `${temple.name} (${temple.address})`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute("src", business.logo);
-    portrait.setAttribute(
-        "alt",
-        `logo of ${business.name} ${business.id} - ${ordinal_suffix_of(
-            business.order
-        )} company`
-    );
+    portrait.setAttribute("src", temple.image);
+    portrait.setAttribute("alt", `image of ${temple.name} ${temple.address}`);
     portrait.setAttribute("loading", "lazy");
-
-    contact.innerHTML = `<strong>Contact:</strong> ${business.contact}</strong>`;
-    pageUrl.innerHTML = ` ${business.pageurl}`;
+    contact.innerHTML = `<strong>Contact:</strong> ${temple.telephone}</strong>`;
+    appointment.innerHTML = `<button>${temple.appointment}</button>`;
     // Add/append the section(card) with the h2 element
-    card.appendChild(portrait);
     card.appendChild(h3);
+    card.appendChild(portrait);
+    card.appendChild(appointment);
     card.appendChild(contact);
-    card.appendChild(pageUrl);
+    card.appendChild(address);
+    card.appendChild(closureSchedule);
 
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector("div.cards").appendChild(card);

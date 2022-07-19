@@ -7,12 +7,13 @@
             "email": "",
             "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
             "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/adelaide_australia_temple.jpeg?v=1658255693596",
-            "closure schedule": [
+            "closureSchedule": [
                 "Saturday, 8 October 2022",
                 "Monday, 10 October 2022 - Monday, 24 October 2022",
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
-            ]
+            ],
+            "appointment": "https/temples/schedule/appointment?lang=en"
         },
         {
             "name": "Accra Ghana Temple",
@@ -21,12 +22,13 @@
             "email": "",
             "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
             "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/accra_ghana_temple_lds.jpeg?v=1658255653809",
-            "closure schedule": [
+            "closureSchedule": [
                 "Saturday, 8 October 2022",
                 "Monday, 10 October 2022 - Monday, 24 October 2022",
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
-            ]
+            ],
+            "appointment": "https/temples/schedule/appointment?lang=en"
         },
         {
             "name": "Calgary Alberta Temple",
@@ -35,12 +37,13 @@
             "email": "",
             "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
             "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/calgary_alberta_lds_temple.jpeg?v=1658255727873",
-            "closure schedule": [
+            "closureSchedule": [
                 "Saturday, 8 October 2022",
                 "Monday, 10 October 2022 - Monday, 24 October 2022",
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
-            ]
+            ],
+            "appointment": "https/temples/schedule/appointment?lang=en"
         },
         {
             "name": "Cedar City Utah Temple",
@@ -49,12 +52,13 @@
             "email": "",
             "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
             "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/cedar_city_utah_temple_exterior.jpeg?v=1658255769156",
-            "closure schedule": [
+            "closureSchedule": [
                 "aturday, 1 October 2022",
                 "Monday, 10 October 2022 - Monday, 24 October 2022",
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
-            ]
+            ],
+            "appointment": "https/temples/schedule/appointment?lang=en"
         },
         {
             "name": "Curitiba Brazil Temple",
@@ -63,12 +67,13 @@
             "email": "",
             "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
             "image": "",
-            "closure schedule": [
+            "closureSchedule": [
                 "Saturday, 8 October 2022",
                 "Monday, 10 October 2022 - Monday, 24 October 2022",
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
-            ]
+            ],
+            "appointment": "https/temples/schedule/appointment?lang=en"
         },
         {
             "name": "Columbus Ohio Temple",
@@ -77,12 +82,13 @@
             "email": "",
             "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
             "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/temple_exterior_columbus_ohio.jpeg?v=1658255812393",
-            "closure schedule": [
+            "closureSchedule": [
                 "Saturday, 8 October 2022",
                 "Monday, 10 October 2022 - Monday, 24 October 2022",
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
-            ]
+            ],
+            "appointment": "https/temples/schedule/appointment?lang=en"
         }
     ]
 }
