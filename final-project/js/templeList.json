@@ -1,0 +1,88 @@
+{
+    "temple": [
+        {
+            "name": "Adelaide Australia Temple",
+            "address": "53-59 Lower Portrush Rd arden SA 5070, Australia",
+            "telephone": "(61) 8-8363-8000",
+            "email": "",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/adelaide_australia_temple.jpeg?v=1658255693596",
+            "closure schedule": [
+                "Saturday, 8 October 2022",
+                "Monday, 10 October 2022 - Monday, 24 October 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        },
+        {
+            "name": "Accra Ghana Temple",
+            "address": "Accra Ghana Temple Complex, 57 Independence Ave, North Ridge, P.M.B. CT 209, Cantonments, Accra, Ghana,",
+            "telephone": "(233) 302-650-123",
+            "email": "",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/accra_ghana_temple_lds.jpeg?v=1658255653809",
+            "closure schedule": [
+                "Saturday, 8 October 2022",
+                "Monday, 10 October 2022 - Monday, 24 October 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        },
+        {
+            "name": "Calgary Alberta Temple",
+            "address": "9802 Rocky Ridge Rd NW Calgary AB T3G 5J7, Canada",
+            "telephone": "(1) 403-241-4250",
+            "email": "",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/calgary_alberta_lds_temple.jpeg?v=1658255727873",
+            "closure schedule": [
+                "Saturday, 8 October 2022",
+                "Monday, 10 October 2022 - Monday, 24 October 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        },
+        {
+            "name": "Cedar City Utah Temple",
+            "address": "280 South Cove Dr Cedar City UT 84720, United States",
+            "telephone": "(1) 435-572-4150",
+            "email": "",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/cedar_city_utah_temple_exterior.jpeg?v=1658255769156",
+            "closure schedule": [
+                "aturday, 1 October 2022",
+                "Monday, 10 October 2022 - Monday, 24 October 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        },
+        {
+            "name": "Curitiba Brazil Temple",
+            "address": "Rua Deputado Heitor Alencar Furtado, 3641 Mossunguê 81200-110 Curitiba - PR, Brazil,",
+            "telephone": "(55) 41-3204-6650",
+            "email": "",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "image": "",
+            "closure schedule": [
+                "Saturday, 8 October 2022",
+                "Monday, 10 October 2022 - Monday, 24 October 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        },
+        {
+            "name": "Columbus Ohio Temple",
+            "address": "3870 Gateway Blvd Columbus OH 43228-9747, United States",
+            "telephone": "(61) 8-8363-8000",
+            "email": "",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "image": "https://cdn.glitch.global/65a0294c-b431-4400-b782-b2124e991b1f/temple_exterior_columbus_ohio.jpeg?v=1658255812393",
+            "closure schedule": [
+                "Saturday, 8 October 2022",
+                "Monday, 10 October 2022 - Monday, 24 October 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        }
+    ]
+}

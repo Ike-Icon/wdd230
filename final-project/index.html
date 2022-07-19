@@ -14,8 +14,15 @@
     <div id="content">
         <header>
             <div class="header1">
-                <img src="images/Temple Inn logo.png" alt="logo of ">
-                <h1>The Temple Inn & Suites, Bethesda</h1>
+                <div class="logo-box">
+                    <a href="index.html">
+                        <img src="images/Temple Inn logo.png" alt="site logo">
+                    </a>
+                </div>
+                <div class="header-text">
+                    <h1>The Temple Inn & Suites,</h1>
+                    <p>Bethesda</p>
+                </div>
 
                 <div class="social">
                     <a href="https://web.facebook.com/hazike.amy/" target="_blank">
@@ -42,170 +49,186 @@
             </nav>
 
             <div class="date-now">
-                <p><span class="date"></span></p>
+                <p>Time: <span class="date"></span></p>
+                <div id="weather"><img src="" alt="" id="weather-icon" />
+                    <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+                </div>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind speed: <span id="speed"></span> km/h</p>
+        </header>
+        <main>
 
-                <div class="cloudy">
-                    <p><strong>Party Cloudy</strong></p>
+            <div class="slideshow-container">
+                <div class="slides-header">
+                    <h2>Guest Rooms</h2>
+                    <p>Popular rooms offered at this hotel.</p>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="images/home/dylan-bed-1.jpg" style="width:100%">
+                    <div class="text">1 Queen Bedst</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="images/home/pexels-bed-2.jpg" style="width:100%">
+                    <div class="text">Suite-1 King Bed</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="images/home/pexels-terry-bed-3.jpg" style="width:100%">
+                    <div class="text">1 King Bed</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <section class="amenities">
+                <h2>Amenities</h2>
+                <div class="amenities-content">
                     <ul>
-                        <li>Wind speed: <span id="speed"></span> km/h</li>
-                        <li>Wind Chill: <span id="windChill">
-                            </span>&deg;</li>
+                        <li><img src="images/amenities/wifi.jpg" alt="">Free WiFi</li>
+                        <li><img src="images/amenities/pool.jpg" alt="">Indoors Pool</li>
+                        <li><img src="images/amenities/parking.jpg" alt="">Spacious Car
+                            Park</li>
+                        <li><img src="images/amenities/no-smoking.jpg" alt="">No
+                            Smoking</li>
+                        <li><img src="images/amenities/fitness-center.jpg" alt="">Indoors
+                            Fitness Center</li>
+                        <li><img src="images/amenities/free-breakfast-c.jpg" alt="">Free
+                            Breakfast</li>
                     </ul>
                 </div>
-            </div>
-    </div>
-
-    </header>
-    <main>
-        <section class="amenities">
-            <h2>Free Amenities</h2>
-            <div class="amenities-content">
-                <ul>
-                    <li><a href="#" id="wifi"><img src="images/amenities/wifi.jpg" alt="">Free WiFi</a></li>
-                    <li<a href="#" id="pool"><img src="images/amenities/pool.jpg" alt="">Indoors Pool</a></li>
-                        <li><a href="#" id="parking"><img src="images/amenities/parking.jpg" alt="">Spacious Car
-                                Park</a></li>
-                        <li><a href="#" id="smoking"><img src="images/amenities/no-smoking.jpg" alt="">No
-                                Smoking</a></li>
-                        <li><a href="#" id="workout"><img src="images/amenities/fitness-center.jpg" alt="">Indoors
-                                Fitness Center</a></li>
-                        <li><a href="#" id="breakfast"><img src="images/amenities/free-breakfast-c.jpg" alt="">Free
-                                Breakfast</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="info">
-            <div class="address">
-                <h3>The Temple Inn & Suites, Bethesda</h3>
-                <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
-            </div>
-
-            <div class="reserve">
-                <h3>Reservations</h3>
-                <p>Toll Free Central Reservations </p>
-                <a class="phoneNumber" href="tel://233 550 335-5577">233 550 335-5577</a>
-                <a href="mailto: asieduisaac5775@gmail.com">Send Email</a>
-            </div>
-        </section>
-
-        <div class="slideshow-container">
-            <div>
-                <h2>Guest Rooms</h2>
-                <p>Popular rooms offered at this hotel.</p>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="images/home/dylan-bed-1.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="images/home/pexels-bed-2.jpg" style="width:100%">
-                <div class="text">Caption Two</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/home/pexels-terry-bed-3.jpg" style="width:100%">
-                <div class="text">Caption Three</div>
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-
-        </div>
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-        </section>
-
-        <div class="overview">
-            <h3>Hotel Overview</h3>
-            <p>
-                The Temple Inn & Suites is a hotel chain with its corporate office in Bethesda,
-                Maryland. We develops and operates specialty hotels close to temples for The
-                Church of Jesus Christ of Latter-day Saints around the world.
-            </p>
-            <p>
-                The owner-operated business provides specific services and lodgings that are tailored
-                to the requirements of the temple workers, visitors, and their families. Anyone willing
-                to follow the company's rules and policies is eligible to use the hotel's amenities and
-                services. The main objective is to raise awareness of and provide details on the specialized
-                services that this hotel chain provides in order to cater to the requirements of temple visitors
-                who travel to serve in the temple or who attend activities like sealings, weddings, receptions, and
-                youth outings.
-            </p>
-        </div>
-        <section class="item" id="weather">
-            <h3>Weather</h3>
-            <div class="temp">
-                <img src="" alt="" id="weather-icon" />
-                <p><span id="current-temp"></span> &deg;F</p>
-            </div>
-
-
-        </section>
-
-        <section class="temple">
-            <div class="ghana">
-                <img src="images/accra_ghana_temple_lds.jpeg" alt="Image of Accra Ghana Temple">
-                <a href="/temples/schedule/appointment?lang=eng" type="button">Appointments</a>
-                <span class="Details_subhead__12J-A">Address</span>
-                <a href="/temples/map?lang=eng&amp;templeName=accra-ghana-temple">Accra Ghana Temple Complex<br>57
-                    Independence Ave, North Ridge<br>P.M.B. CT 209, Cantonments, Accra, Ghana, </a>
-                <div>
-                    <span class="Details_subhead__12J-A">Services</span>
-                    <span>No clothing rental available</span>
-                    <br><span>No cafeteria available</span><br>
-                    <span>Patron housing available</span><br>
-                    <span>Distribution center nearby</span>
-                </div>
-            </div>
-            <div class="alaska">
-                <img src="images/anchorage_alaska_temple_lds.jpeg" alt="">
-                <a href="/temples/schedule/appointment?lang=eng" type="button">Appointments</a>
-                <span class="Details_subhead__12J-A">Address</span>
-                <a href="/temples/map?lang=eng&amp;templeName=anchorage-alaska-temple">13161 Brayton Dr<br>Anchorage
-                    AK 99516<br>United States</a>
-                <div><span class="Details_subhead__12J-A">Services</span>
-                    <span>No clothing rental available</span>
-                    <br><span>No cafeteria available</span>
-                    <br><span>No patron housing available</span>
-                    <br><span>No distribution center nearby</span>
-                </div>
-            </div>
-    </main>
-    <footer>
-        <div class="footer1">
-            <img class="logo-box2" src="images/Temple Inn logo.png" alt="logo image">
-            <section class="headings2">
-                <h3>Suncity Chamber of Commerce for Health</h3>
-                <q>179 l9 lowcost</q>
-                <p>🌍Suyani, Ghana</p>
-                <p></p>
             </section>
-            <div>
-                <p><strong>Contact us!</strong></p>
-                <p>info@Suncitychamber.com</p>
-                <p>📞 +(233) 5503-35577</p>
-                <p><a href="https://www.google.com/maps/@5.619712,-0.1998848,13z" target="_blank"
-                        class="location-link">🚩 Location Map</a></p>
-            </div>
-            <div class="social">
 
+            <div class="overview">
+                <h2>Hotel Overview</h2>
+                <p>
+                    The Temple Inn & Suites is a hotel chain with its corporate office in Bethesda,
+                    Maryland. We develops and operates specialty hotels close to temples for The
+                    Church of Jesus Christ of Latter-day Saints around the world.
+                </p>
+                <p>
+                    The owner-operated business provides specific services and lodgings that are tailored
+                    to the requirements of the temple workers, visitors, and their families. Anyone willing
+                    to follow the company's rules and policies is eligible to use the hotel's amenities and
+                    services. The main objective is to raise awareness of and provide details on the specialized
+                    services that this hotel chain provides in order to cater to the requirements of temple visitors
+                    who travel to serve in the temple or who attend activities like sealings, weddings, receptions, and
+                    youth outings.
+                </p>
             </div>
-        </div>
-        <div>
-            <p> &copy;2022 &nbsp;.:|:.&nbsp;<strong>Isaac Asiedu</strong> &nbsp;.:|:.&nbsp;WDD 230 Project
-                &nbsp;.:|:. &nbsp; Last Updated: <span id="lastModified"></span></p>
-        </div>
-    </footer>
+
+            <section class="info">
+                <div class="address">
+                    <h2>The Temple Inn & Suites, Bethesda</h2>
+                    <p><a href="https://www.google.com/search?q=4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814&sourceid=chrome&ie=UTF-8"
+                            target="_blank">🚩 Montgomery Ln #300, Bethesda, MD 20814
+                        </a> </p>
+                </div>
+
+                <div class="reserve">
+                    <h2>Reservations</h2>
+                    <p>Toll Free Central Reservations </p>
+                    <a class="phoneNumber" href="tel://233 550 335-5577">📞+(233)550 335-5577</a>
+                    <a href="mailto: asieduisaac5775@gmail.com">E-mail</a>
+                </div>
+            </section>
+
+
+
+
+            <section class="temple">
+                <div class="ghana">
+                    <img src="images/accra_ghana_temple_lds.jpeg" alt="Image of Accra Ghana Temple">
+                    <a href="/temples/schedule/appointment?lang=eng" class="btn"> <button>Appointments</button></a>
+                    <span class=" Details_subhead__12J-A">Address</span>
+                    <a href="/temples/map?lang=eng&amp;templeName=accra-ghana-temple">Accra Ghana Temple
+                        Complex<br>57
+                        Independence Ave, North Ridge<br>P.M.B. CT 209, Cantonments, Accra, Ghana, </a>
+                    <div>
+                        <h3>Services</h3>
+                        <span>No clothing rental available</span>
+                        <br><span>No cafeteria available</span><br>
+                        <span>Patron housing available</span><br>
+                        <span>Distribution center nearby</span>
+                    </div>
+                </div>
+                <div class="alaska">
+                    <img src="images/anchorage_alaska_temple_lds.jpeg" alt="">
+                    <a href="/temples/schedule/appointment?lang=eng" class="btn"> <button>Appointments</button></a>
+                    <span class="Details_subhead__12J-A">Address</span>
+                    <a href="/temples/map?lang=eng&amp;templeName=apia-samoa-temple">Vaitele Street<br>Pesega<br>Apia,
+                        Samoa</a>
+                    <div>
+                        <h3>Services</h3>
+                        <span>No clothing rental available</span>
+                        <br><span>No cafeteria available</span>
+                        <br><span>No patron housing available</span>
+                        <br><span>No distribution center nearby</span>
+                    </div>
+                </div>
+                <div class="apia">
+                    <img src="images/apia_samoa_temple_lds.jpeg" alt="">
+                    <a href="/temples/schedule/appointment?lang=eng" class="btn"> <button>Appointments</button></a>
+                    <span class="Details_subhead__12J-A">Address</span>
+                    <a href="/temples/map?lang=eng&amp;templeName=anchorage-alaska-temple">13161 Brayton Dr<br>Anchorage
+                        AK 99516<br>United States</a>
+                    <div>
+                        <h3>Services</h3>
+                        <span>No clothing rental available</span>
+                        <br><span>No cafeteria available</span>
+                        <br><span>No patron housing available</span>
+                        <br><span>No distribution center nearby</span>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            <div class="footer1">
+
+                <section class="headings2">
+                    <h2>The Temple Inn & Suites,
+                        Bethesda</h2>
+                    <q>Montgomery Ln #300</q>
+                    <p>🌍Bethesda, U.S.A</p>
+                    <p></p>
+                </section>
+                <div>
+                    <p><strong>Contact us!</strong></p>
+                    <p>info@TempleInn&Suites.com</p>
+                    <p>📞 +(233) 5503-35577</p>
+                    <p><a href="https://www.google.com/maps/@5.619712,-0.1998848,13z" target="_blank"
+                            class="location-link">🚩 Location Map</a></p>
+                </div>
+                <div class="social">
+                    <a href="https://web.facebook.com/hazike.amy/" target="_blank">
+                        <img src="images/icons/facebook_108044.ico" alt="Facebook icon">
+                    </a>
+                    <a href="https://www.instagram.com/quamiasiedu/" target="_blank">
+                        <img src="images/icons/instagram_108043.ico" alt="Instagram icon">
+                    </a>
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="images/icons/youtube_108041.ico" alt="Twitter icon">
+                    </a>
+                </div>
+            </div>
+            <div class="footer2">
+                <p> &copy;2022 &nbsp;.:|:.&nbsp;<strong>Isaac Asiedu</strong> &nbsp;.:|:.&nbsp;WDD 230 Final Project
+                    &nbsp;.:|:. &nbsp; Last Updated: <span id="lastModified"></span></p>
+            </div>
+        </footer>
     </div>
     <script src="js/apiFetchs.js"></script>
     <script src="js/basicScripts.js"></script>
