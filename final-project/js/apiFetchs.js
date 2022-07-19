@@ -106,7 +106,7 @@ function displaytempleList(temple) {
     portrait.setAttribute("alt", `image of ${temple.name} ${temple.address}`);
     portrait.setAttribute("loading", "lazy");
     contact.innerHTML = `<strong>Contact:</strong> ${temple.telephone}</strong>`;
-    appointment.innerHTML = `<button>${temple.appointment}</button>`;
+    appointment.innerHTML = `<button><a href='${temple.appointment}'>Like</a></button>`;
     // Add/append the section(card) with the h2 element
     card.appendChild(h3);
     card.appendChild(portrait);
