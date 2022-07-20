@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Temple Inn & Suites</title>
+    <meta name="description" content="Final Project: The Temple Inn & Suites" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <div class="header1">
+                <div class="logo-box">
+                    <a href="index.html">
+                        <img src="images/Temple Inn logo.png" alt="site logo">
+                    </a>
+                </div>
+                <div class="header-text">
+                    <h1>The Temple Inn & Suites,</h1>
+                    <p>Bethesda</p>
+                </div>
+
+                <div class="social">
+                    <a href="https://web.facebook.com/hazike.amy/" target="_blank">
+                        <img src="images/icons/facebook_108044.ico" alt="Facebook icon">
+                    </a>
+                    <a href="https://www.instagram.com/quamiasiedu/" target="_blank">
+                        <img src="images/icons/instagram_108043.ico" alt="Instagram icon">
+                    </a>
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="images/icons/youtube_108041.ico" alt="Twitter icon">
+                    </a>
+                </div>
+            </div>
+
+            <nav>
+                <ul class="navigation" id="navbar">
+                    <li><a class="ham" href="#">Manu</a></li>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="temples.html" class="nav-link">Temples</a></li>
+                    <li><a href="reservation.html" class="nav-link">Reservation</a></li>
+                    <li><a href="services.html" class="nav-link">Our Services</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="date-now">
+                <p>Time: <span class="date"></span></p>
+                <div id="weather"><img src="" alt="" id="weather-icon" />
+                    <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+                </div>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind speed: <span id="speed"></span> km/h</p>
+        </header>
+        <main>
+            <div class="banner">
+                <h1>Welcome to Our The Reservations</h1>
+                <img src="images/reservation/double.jpg" alt="Our room">
+            </div>
+            <form method="get" action="" class="reserv-form">
+
+                <fieldset class="registrant">
+                    <legend>Registrant's Info</legend>
+                    <label for="fname">First Name*
+                        <input type="text" required placeholder="Enter your first name">
+                    </label>
+                    <label for="lname">Last Name*
+                        <input type="text" required placeholder="Enter your last name">
+                    </label>
+                    <label for="email">Email*
+                        <input type="email" required placeholder="user@email.org">
+                    </label>
+                    <label for="tel">Phone*
+                        <input type="tel" name="phone" required placeholder="123-456-7890">
+                    </label>
+                    <label for="country">State or Country
+                        <input type="text" name="country">
+                    </label>
+                </fieldset>
+
+                <fieldset class="accommo">
+                    <legend>Accommodations</legend>
+                    <label for="location">Location
+                        <input type="text" placeholder="Prefered location">
+                    </label>
+                    <label for="start">Reservation date:</label>
+                    <input type="date" id="start" name="trip-start" value="2022-07-22" min="2022-08-01"
+                        max="2023-12-31">
+
+                    <label for="num-of-rooms">Number of Rooms:</label>
+                    <select name="rooms" id="num-rooms">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <label for="type-of-room">Type of Rooms:</label>
+                    <select name="type-room" id="type-room">
+                        <option value="Single">Single</option>
+                        <option value="Double">Double</option>
+                        <option value="Queen">Queen</option>
+                        <option value="King">King</option>
+                        <option value="Executive Suite">Executive Suite</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="comments">
+                    <legend>Special Accommodations/Comments</legend>
+                    <textarea id="txtid" name="Comments" rows="10" cols="30" maxlength="150"></textarea>
+                </fieldset>
+                <input type="submit" value="Submit info" class="submitBtn">
+            </form>
+
+        </main>
+        <footer>
+            <div class="footer1">
+
+                <section class="headings2">
+                    <h2>The Temple Inn & Suites,
+                        Bethesda</h2>
+                    <q>Montgomery Ln #300</q>
+                    <p>🌍Bethesda, U.S.A</p>
+                    <p></p>
+                </section>
+                <div>
+                    <p><strong>Contact us!</strong></p>
+                    <p>info@TempleInn&Suites.com</p>
+                    <p>📞 +(233) 5503-35577</p>
+                    <p><a href="https://www.google.com/maps/@5.619712,-0.1998848,13z" target="_blank"
+                            class="location-link">🚩 Location Map</a></p>
+                </div>
+                <div class="social">
+                    <a href="https://web.facebook.com/hazike.amy/" target="_blank">
+                        <img src="images/icons/facebook_108044.ico" alt="Facebook icon">
+                    </a>
+                    <a href="https://www.instagram.com/quamiasiedu/" target="_blank">
+                        <img src="images/icons/instagram_108043.ico" alt="Instagram icon">
+                    </a>
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="images/icons/youtube_108041.ico" alt="Twitter icon">
+                    </a>
+                </div>
+            </div>
+            <div class="footer2">
+                <p> &copy;2022 &nbsp;.:|:.&nbsp;<strong>Isaac Asiedu</strong> &nbsp;.:|:.&nbsp;WDD 230 Final Project
+                    &nbsp;.:|:. &nbsp; Last Updated: <span id="lastModified"></span></p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/apiFetchs.js"></script>
+    <script src="js/basicScripts.js"></script>
+
+</body>
+
+</html>

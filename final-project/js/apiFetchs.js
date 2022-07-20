@@ -81,10 +81,11 @@ function displaytempleList(temple) {
     let h3 = document.createElement("h3");
     let contact = document.createElement("p");
     let appointment = document.createElement("a");
-    let address = document.createElement("p");
+    let h4 = document.createElement("h4");
     let closureSchedule = document.createElement("p");
     // Change the textContent property of the h2 element to contain the prophet's full name
-    h3.textContent = `${temple.name} (${temple.address})`;
+    h3.textContent = `${temple.name}`;
+    h4.textContent = `${temple.address}`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute("src", temple.image);
@@ -93,11 +94,12 @@ function displaytempleList(temple) {
     contact.innerHTML = `<strong>Contact:</strong> ${temple.telephone}</strong>`;
     appointment.innerHTML = `<button><a href='${temple.appointment}'>Like</a></button>`;
     // Add/append the section(card) with the h2 element
+
     card.appendChild(h3);
     card.appendChild(portrait);
+    card.appendChild(h4);
     card.appendChild(appointment);
     card.appendChild(contact);
-    card.appendChild(address);
     card.appendChild(closureSchedule);
 
     // Add/append the existing HTML div with the cards class with the section(card)

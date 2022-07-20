@@ -77,6 +77,10 @@ img {
     background-color: #1d8b995e;
 }
 
+.reserv-slide {
+    width: 50%;
+}
+
 .slides-header {
     text-align: center;
 }
@@ -466,7 +470,6 @@ img {
 /*********************** footer *********************/
 footer {
     width: 100%;
-
     color: #f2f2f2;
 }
 
@@ -492,29 +495,26 @@ footer {
 }
 
 /******************** temple page ******************************************/
+
 .temple-grid {
-    max-width: 950px;
+    max-width: 80%;
     margin: 20px auto;
+}
+.temple-grid h1 {
+    text-align: center;
 }
 
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    background-color: #91f3e677;
 }
 
-.cards h2 {
+.cards h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #1a1f23;
     margin-bottom: 0;
-}
-
-.card section {
-    margin: 3px;
-    padding: 30px;
-    background-color: #91f3e64f;
-    border: 1px solid #0d0d0f3f;
-    display: block;
-    box-shadow: 0 0 10px #777;
 }
 
 .cards img {
@@ -527,4 +527,135 @@ footer {
 .cards section > p {
     min-height: 10px;
     margin-bottom: 0;
+}
+
+/************************ reservation page ***************************/
+.banner img {
+    width: 100%;
+}
+
+.banner h1 {
+    position: absolute;
+    color: #029cb1;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    font-size: 4rem;
+    text-shadow: 2px 2px #0b0014;
+}
+
+.reserv-form {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.reserv-form fieldset {
+    box-shadow: 0 0 10px #777;
+    margin-left: 0;
+}
+
+.reserv-form label {
+    display: block;
+    padding-top: 1rem;
+    color: #1a1f23;
+    font-size: 1rem;
+}
+
+legend {
+    font-size: 1.3rem;
+    color: #ec0b43;
+}
+.reserv-form input {
+    display: block;
+    padding: 0.7rem;
+    color: #1a1f23;
+    font-size: 0.8rem;
+    border: 1px solid #1a1f23;
+    border-radius: 5px;
+    color: #1a1f23;
+    width: 90%;
+    max-width: 19rem;
+    background-color: rgba(238, 237, 237, 0.568);
+}
+
+.reserv-form .submitBtn {
+    border: none;
+    background-color: rgb(6, 168, 6);
+    border-radius: 15px;
+    padding: 0.7rem 0.7rem;
+    margin: 10px 1rem 1rem 1rem;
+    width: 90%;
+    max-width: 19rem;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.reserv-form .submitBtn:hover {
+    background-color: rgb(106, 243, 106);
+    color: #1a1f23;
+}
+
+.reserv-form input:required {
+    border-left: red solid 5px;
+}
+
+.reserv-form input:required:valid {
+    border-left: green solid 5px;
+}
+
+#txtid {
+    height: 100px;
+    width: 90%;
+    max-width: 29rem;
+}
+
+/******************* Services page ********************/
+.service-div {
+    max-width: 950px;
+    margin: 40px auto;
+}
+
+.service-div h1 {
+    text-align: center;
+}
+
+.service-div p {
+    font-size: 1.3rem;
+}
+
+.special-services {
+    margin-top: 30px;
+}
+
+.services-ameni {
+    margin-top: 50px;
+}
+
+.services-ameni li {
+    margin: 0;
+    padding: 0;
+    line-height: 10px;
+}
+
+.sub-pages {
+    margin-top: 50px;
+    background-color: #ec0b4338;
+    padding: 20px;
+    border-radius: 10px;
+    color: #0b0014;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sub-pages a {
+    text-decoration: none;
+    color: #029cb1;
+}
+
+.sub-pages a:hover {
+    text-decoration: underline;
 }
