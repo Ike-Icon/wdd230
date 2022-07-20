@@ -504,7 +504,13 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 10px;
+}
+
+.cards section {
     background-color: #91f3e677;
+    margin: 10px;
+    box-shadow: 0 0 10px #777;
+    padding: 10px;
 }
 
 .cards h3 {
