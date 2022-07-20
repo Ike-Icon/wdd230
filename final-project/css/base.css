@@ -32,21 +32,20 @@ body {
 }
 
 header {
-    display: grid;
-    grid-row: 1fr 1fr 1fr;
+    width: 100%;
+    display: block;
+
     margin: 0 auto;
 }
 
 .header1 {
     background-color: #1d8a99;
     padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: block;
 }
 
 .header-text {
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-align: center;
     margin-left: 70px;
 }
@@ -264,6 +263,7 @@ img {
 .social {
     margin-right: 80px;
     text-decoration: none;
+    align-items: center;
 }
 
 .social img {
@@ -329,6 +329,7 @@ img {
 .amenities-content ul {
     list-style: none;
     display: flex;
+    flex-direction: column;
 }
 .amenities-content ul li {
     justify-content: space-between;
@@ -340,9 +341,7 @@ img {
 }
 
 .info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: block;
     background-color: #ec0b433a;
     width: 80%;
     margin: 0 auto;
@@ -372,7 +371,7 @@ img {
 .address {
     color: #1d8a99;
     font-size: 1.2rem;
-    border-right: 1px solid #0b0014;
+
     padding-right: 100px;
 }
 .address a {
@@ -418,9 +417,7 @@ img {
 }
 
 .temple {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: block;
     margin: 0 auto;
     width: 90%;
     margin: 60px;
@@ -474,9 +471,8 @@ footer {
 }
 
 .footer1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: inline-block;
+
     align-items: center;
     background-color: #0b0014;
     border-bottom: 1px solid #f2f2f2;
@@ -540,7 +536,7 @@ footer {
     text-align: center;
     width: 100%;
     left: 0px;
-    font-size: 4rem;
+    font-size: 1.5rem;
     text-shadow: 2px 2px #0b0014;
 }
 
